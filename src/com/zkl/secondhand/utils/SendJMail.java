@@ -20,16 +20,16 @@ import javax.mail.internet.MimeMessage;
  */
 public class SendJMail {
 		static String smtphost="smtp.163.com";
-		static String from = "z3505523939@163.com"; 
-		final static String username = "z3505523939@163.com";  	//发件人的邮件帐户
-		final static String password = "zkl123456789";   					//发件人的邮件密码
+		static String from = ".com"; 
+		final static String username = ".com";  	//发件人的邮件帐户
+		final static String password = "";   					//发件人的邮件密码
 
 		public static boolean sendMail(String email, String emailMsg) {
 		
-	//	String from = "3505523939@qq.com"; 				// 邮件发送人的邮件地址
+	//	String from = ".com"; 				// 邮件发送人的邮件地址
 		String to = email; 										// 邮件接收人的邮件地址
-	//	final String username = "35055239@qq.com";  	//发件人的邮件帐户
-	//	final String password = "zkl12345678";   					//发件人的邮件密码
+	//	final String username = ".com";  	//发件人的邮件帐户
+	//	final String password = "";   					//发件人的邮件密码
 
 
 		//定义Properties对象,设置环境信息
